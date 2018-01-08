@@ -11,7 +11,9 @@ t2= np.arange(0,21,1)
 #ponemos etiquetas
 plt.xlabel('edad')
 plt.ylabel('anios')
-plt.title('AniosVsEdad')
+#El titulo tenía que ser tu nombre
+#plt.title('AniosVsEdad')
+plt.title('Alejandra Bonilla') 
 
 #graficamos la funcion
 plt.plot(t1, f(t1),'k*',t2, f(t2), 'm')
